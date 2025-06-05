@@ -59,8 +59,8 @@ const LocationsPanel: React.FC<LocationsPanelProps> = ({
               onChange={onToggleLocations}
               className="view-select"
             >
-              <option value="consumer">Consumer Pillar</option>
               <option value="all">All Pillars</option>
+              <option value="consumer">Consumer Pillar</option>
             </select>
           </div>
           <h2>Where we're traveling from</h2>

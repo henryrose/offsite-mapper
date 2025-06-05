@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const locationsFile = path.join(__dirname, '../src/data/locations.json');
+const locationsFile = path.join(__dirname, '../src/data/consumer-locations.json');
 const locations = JSON.parse(fs.readFileSync(locationsFile, 'utf8'));
 
 // Function to delay execution

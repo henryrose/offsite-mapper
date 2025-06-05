@@ -45,11 +45,11 @@ Your site will be available at: `https://henryrose.github.io/offsite-mapper/`
 
 - `src/` — React components, types, and data
 - `src/components/Map.tsx` — Main map component
-- `src/data/locations.json` — Team location data
+- `src/data/consumer-locations.json` — Team location data
 - `scripts/calculate-distances.js` — Script to calculate distances to Nassau
 
 ## Customization
-- To add or update locations, edit `src/data/locations.json` and (optionally) run the distance calculation script:
+- To add or update locations, edit `src/data/consumer-locations.json` and (optionally) run the distance calculation script:
   ```sh
   node scripts/calculate-distances.js
   ```

@@ -1,9 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import locationsData from '../data/locations.json';
-import { LocationsData, Location } from '../types/locations';
+import { Location } from '../types/locations';
 import arc from 'arc';
 
 // Fix for default marker icons in Leaflet with React
@@ -59,13 +58,16 @@ const MapBounds: React.FC<{ bounds: L.LatLngBounds }> = ({ bounds }) => {
   return null;
 };
 
-const Map: React.FC = () => {
-  const typedLocations = locationsData as LocationsData;
+interface MapProps {
+  locations: Location[];
+  selectedLocation: Location | null;
+}
+
+const Map: React.FC<MapProps> = ({ locations, selectedLocation }) => {
   const teamLocationIcon = createCustomIcon('#8686FC');
-  const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   
   // Calculate bounds to include all points
-  const bounds = typedLocations.locations.reduce((bounds, location) => {
+  const bounds = locations.reduce((bounds, location) => {
     if (location.coordinates) {
       bounds.extend(location.coordinates);
     }
@@ -93,7 +95,7 @@ const Map: React.FC = () => {
           </Popup>
         </Marker>
         {/* Add markers and curved lines for all team locations */}
-        {typedLocations.locations.map((location, index) => (
+        {locations.map((location, index) => (
           location.coordinates && (
             <React.Fragment key={index}>
               <Marker 
