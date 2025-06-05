@@ -10,10 +10,17 @@ delete (L.Icon.Default.prototype as any)._getIconUrl;
 
 // Create custom SVG marker for team locations
 const createCustomIcon = (color: string) => {
+  // Create a darker shade for the border (20% darker)
+  const darkerColor = color.replace(/[0-9a-f]{2}/gi, (hex) => {
+    const num = parseInt(hex, 16);
+    const darker = Math.max(0, num - 51); // Subtract 20% (51 is roughly 20% of 255)
+    return darker.toString(16).padStart(2, '0');
+  });
+
   return new L.DivIcon({
     className: 'custom-marker',
     html: `<svg width="20" height="32" viewBox="0 0 25 41" xmlns="http://www.w3.org/2000/svg">
-      <path fill="${color}" d="M12.5 0C5.6 0 0 5.6 0 12.5C0 19.4 12.5 41 12.5 41C12.5 41 25 19.4 25 12.5C25 5.6 19.4 0 12.5 0Z"/>
+      <path fill="${color}" stroke="${darkerColor}" stroke-width="1.5" d="M12.5 0C5.6 0 0 5.6 0 12.5C0 19.4 12.5 41 12.5 41C12.5 41 25 19.4 25 12.5C25 5.6 19.4 0 12.5 0Z"/>
     </svg>`,
     iconSize: [20, 32],
     iconAnchor: [10, 32],
@@ -64,7 +71,7 @@ interface MapProps {
 }
 
 const Map: React.FC<MapProps> = ({ locations, selectedLocation }) => {
-  const teamLocationIcon = createCustomIcon('#8686FC');
+  const teamLocationIcon = createCustomIcon('#a3a3a3');
   
   // Calculate bounds to include all points
   const bounds = locations.reduce((bounds, location) => {
@@ -116,7 +123,7 @@ const Map: React.FC<MapProps> = ({ locations, selectedLocation }) => {
               <Polyline
                 positions={createCurvedLine(location.coordinates, NASSAU_COORDINATES)}
                 pathOptions={{
-                  color: selectedLocation === location ? '#FF6B6B' : '#50F1FA',
+                  color: selectedLocation === location ? '#FF6B6B' : '#a4f8dc',
                   weight: selectedLocation === location ? 4 : 2,
                   opacity: selectedLocation === location ? 1 : 0.8,
                   lineCap: 'round'
