@@ -1,7 +1,8 @@
 export interface Location {
   name: string;
   coordinates: [number, number] | null;
-  distance?: string;
+  distanceKm?: number;
+  distanceMiles?: number;
 }
 
 export interface LocationsData {

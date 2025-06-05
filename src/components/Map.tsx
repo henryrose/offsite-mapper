@@ -74,9 +74,9 @@ const Map: React.FC = () => {
             <Popup>
               <div>
                 <strong>{location.name}</strong>
-                {location.distance && (
+                {location.distanceKm && location.distanceMiles && (
                   <div style={{ marginTop: '4px', color: '#666' }}>
-                    Distance to Nassau: {location.distance}
+                    Distance to Nassau: {location.distanceMiles}mi ({location.distanceKm}km)
                   </div>
                 )}
               </div>

@@ -44,19 +44,25 @@ function formatDistance(distanceKm) {
 const locationsFile = path.join(__dirname, '../src/data/locations.json');
 const locations = JSON.parse(fs.readFileSync(locationsFile, 'utf8'));
 
-// Add distances to each location
+// Add distances to each location and remove old distance attribute
 const updatedLocations = locations.locations.map(location => {
   if (location.coordinates) {
     const [lat, lon] = location.coordinates;
-    const distance = calculateDistance(
+    const distanceKm = calculateDistance(
       lat,
       lon,
       NASSAU_COORDINATES[0],
       NASSAU_COORDINATES[1]
     );
+    const distanceMiles = distanceKm * 0.621371;
+    
+    // Create new location object without the old distance attribute
+    const { distance, ...locationWithoutDistance } = location;
+    
     return {
-      ...location,
-      distance: formatDistance(distance)
+      ...locationWithoutDistance,
+      distanceKm: Math.round(distanceKm),
+      distanceMiles: Math.round(distanceMiles)
     };
   }
   return location;

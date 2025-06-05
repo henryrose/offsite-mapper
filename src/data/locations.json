@@ -6,7 +6,8 @@
         32.7174202,
         -117.162772
       ],
-      "distance": "2449mi (3941km)"
+      "distanceKm": 3941,
+      "distanceMiles": 2449
     },
     {
       "name": "Joao Pessoa, Brazil",
@@ -14,7 +15,8 @@
         -7.1215981,
         -34.882028
       ],
-      "distance": "3620mi (5826km)"
+      "distanceKm": 5826,
+      "distanceMiles": 3620
     },
     {
       "name": "Pereira, Colombia",
@@ -22,7 +24,8 @@
         4.7854606,
         -75.788322
       ],
-      "distance": "1403mi (2258km)"
+      "distanceKm": 2258,
+      "distanceMiles": 1403
     },
     {
       "name": "New York, NY, USA",
@@ -30,7 +33,8 @@
         40.7127281,
         -74.0060152
       ],
-      "distance": "1101mi (1771km)"
+      "distanceKm": 1771,
+      "distanceMiles": 1101
     },
     {
       "name": "San Luis Obispo, CA, USA",
@@ -38,7 +42,8 @@
         35.3540209,
         -120.375716
       ],
-      "distance": "2642mi (4252km)"
+      "distanceKm": 4252,
+      "distanceMiles": 2642
     },
     {
       "name": "Atascadero, CA, USA",
@@ -46,7 +51,8 @@
         35.4894169,
         -120.6707255
       ],
-      "distance": "2659mi (4279km)"
+      "distanceKm": 4279,
+      "distanceMiles": 2659
     },
     {
       "name": "Porto Alegre, Brazil",
@@ -54,7 +60,8 @@
         -30.0324999,
         -51.2303767
       ],
-      "distance": "4181mi (6729km)"
+      "distanceKm": 6729,
+      "distanceMiles": 4181
     },
     {
       "name": "Philadelphia, PA, USA",
@@ -62,7 +69,8 @@
         39.9527237,
         -75.1635262
       ],
-      "distance": "1039mi (1672km)"
+      "distanceKm": 1672,
+      "distanceMiles": 1039
     },
     {
       "name": "New Bern, NC, USA",
@@ -70,7 +78,8 @@
         35.1084931,
         -77.0441143
       ],
-      "distance": "696mi (1121km)"
+      "distanceKm": 1121,
+      "distanceMiles": 696
     },
     {
       "name": "San Marcos, CA, USA",
@@ -78,7 +87,8 @@
         33.1352995,
         -117.1743395
       ],
-      "distance": "2451mi (3944km)"
+      "distanceKm": 3944,
+      "distanceMiles": 2451
     },
     {
       "name": "Hartford, CT, USA",
@@ -86,7 +96,8 @@
         41.764582,
         -72.6908547
       ],
-      "distance": "1187mi (1910km)"
+      "distanceKm": 1910,
+      "distanceMiles": 1187
     },
     {
       "name": "Brooklyn, NY, USA",
@@ -94,7 +105,8 @@
         40.6526006,
         -73.9497211
       ],
-      "distance": "1097mi (1766km)"
+      "distanceKm": 1766,
+      "distanceMiles": 1097
     },
     {
       "name": "Toronto, Canada",
@@ -102,7 +114,8 @@
         43.6534817,
         -79.3839347
       ],
-      "distance": "1291mi (2078km)"
+      "distanceKm": 2078,
+      "distanceMiles": 1291
     },
     {
       "name": "Staten Island, NY, USA",
@@ -110,7 +123,8 @@
         40.5724274,
         -74.1452001
       ],
-      "distance": "1090mi (1754km)"
+      "distanceKm": 1754,
+      "distanceMiles": 1090
     },
     {
       "name": "San Jose, Costa Rica",
@@ -118,7 +132,8 @@
         9.9325427,
         -84.0795782
       ],
-      "distance": "1132mi (1822km)"
+      "distanceKm": 1822,
+      "distanceMiles": 1132
     },
     {
       "name": "Miami, FL, USA",
@@ -126,7 +141,8 @@
         25.7741728,
         -80.19362
       ],
-      "distance": "182mi (293km)"
+      "distanceKm": 293,
+      "distanceMiles": 182
     },
     {
       "name": "Seattle, WA, USA",
@@ -134,7 +150,8 @@
         47.6038321,
         -122.330062
       ],
-      "distance": "2891mi (4653km)"
+      "distanceKm": 4653,
+      "distanceMiles": 2891
     },
     {
       "name": "Long Island City, NY, USA",
@@ -142,7 +159,8 @@
         40.7455316,
         -73.9484995
       ],
-      "distance": "1104mi (1776km)"
+      "distanceKm": 1776,
+      "distanceMiles": 1104
     },
     {
       "name": "Hayward, CA, USA",
@@ -150,7 +168,8 @@
         37.6688205,
         -122.080796
       ],
-      "distance": "2749mi (4423km)"
+      "distanceKm": 4423,
+      "distanceMiles": 2749
     },
     {
       "name": "Belo Horizonte, Brazil",
@@ -158,7 +177,8 @@
         -19.9227318,
         -43.9450948
       ],
-      "distance": "3834mi (6170km)"
+      "distanceKm": 6170,
+      "distanceMiles": 3834
     },
     {
       "name": "Phoenix, AZ, USA",
@@ -166,7 +186,8 @@
         33.4484367,
         -112.074141
       ],
-      "distance": "2159mi (3474km)"
+      "distanceKm": 3474,
+      "distanceMiles": 2159
     },
     {
       "name": "Rio de Janeiro, Brazil",
@@ -174,7 +195,8 @@
         -22.9110137,
         -43.2093727
       ],
-      "distance": "4027mi (6481km)"
+      "distanceKm": 6481,
+      "distanceMiles": 4027
     },
     {
       "name": "Fortaleza, Brazil",
@@ -182,7 +204,8 @@
         -3.7304512,
         -38.5217989
       ],
-      "distance": "3278mi (5275km)"
+      "distanceKm": 5275,
+      "distanceMiles": 3278
     },
     {
       "name": "Los Angeles, CA, USA",
@@ -190,7 +213,8 @@
         34.0536909,
         -118.242766
       ],
-      "distance": "2515mi (4048km)"
+      "distanceKm": 4048,
+      "distanceMiles": 2515
     },
     {
       "name": "Bahía Blanca, Argentina",
@@ -198,7 +222,8 @@
         -38.7176522,
         -62.2654871
       ],
-      "distance": "4512mi (7262km)"
+      "distanceKm": 7262,
+      "distanceMiles": 4512
     },
     {
       "name": "Sacramento, CA, USA",
@@ -206,7 +231,8 @@
         38.5810606,
         -121.493895
       ],
-      "distance": "2723mi (4383km)"
+      "distanceKm": 4383,
+      "distanceMiles": 2723
     },
     {
       "name": "San Francisco, CA, USA",
@@ -214,7 +240,8 @@
         37.7792588,
         -122.4193286
       ],
-      "distance": "2768mi (4454km)"
+      "distanceKm": 4454,
+      "distanceMiles": 2768
     },
     {
       "name": "Atlanta, GA, USA",
@@ -222,7 +249,8 @@
         33.7544657,
         -84.3898151
       ],
-      "distance": "735mi (1182km)"
+      "distanceKm": 1182,
+      "distanceMiles": 735
     },
     {
       "name": "Bogota, Colombia",
@@ -230,7 +258,8 @@
         4.6534109,
         -74.0836547
       ],
-      "distance": "1425mi (2294km)"
+      "distanceKm": 2294,
+      "distanceMiles": 1425
     }
   ]
 }
