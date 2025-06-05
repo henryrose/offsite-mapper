@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, Polyline } from 'react-leaflet';
+import React, { useState, useRef, useEffect } from 'react';
+import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import locationsData from '../data/locations.json';
@@ -46,18 +46,32 @@ const createCurvedLine = (start: [number, number], end: [number, number]) => {
   return line.geometries[0].coords.map((coord: [number, number]) => [coord[1], coord[0]] as [number, number]);
 };
 
+// Component to handle map bounds
+const MapBounds: React.FC<{ bounds: L.LatLngBounds }> = ({ bounds }) => {
+  const map = useMap();
+  
+  useEffect(() => {
+    map.fitBounds(bounds, {
+      padding: [50, 50],
+      maxZoom: 4 // Prevent zooming in too close
+    });
+  }, [map, bounds]);
+
+  return null;
+};
+
 const Map: React.FC = () => {
   const typedLocations = locationsData as LocationsData;
   const teamLocationIcon = createCustomIcon('#8686FC');
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   
-  // Calculate bounds to include all points with padding
+  // Calculate bounds to include all points
   const bounds = typedLocations.locations.reduce((bounds, location) => {
     if (location.coordinates) {
       bounds.extend(location.coordinates);
     }
     return bounds;
-  }, L.latLngBounds([])).pad(0.1);
+  }, L.latLngBounds([]));
 
   return (
     <div style={{ position: 'relative', height: '100vh', width: '100%' }}>
@@ -73,6 +87,7 @@ const Map: React.FC = () => {
         bounds={bounds}
         boundsOptions={{ padding: [50, 50] }}
       >
+        <MapBounds bounds={bounds} />
         <TileLayer
           attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
           url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
