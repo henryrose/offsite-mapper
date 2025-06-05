@@ -26,11 +26,18 @@ function toRad(degrees) {
 }
 
 // Format distance for display
-function formatDistance(distance) {
-  if (distance < 1) {
-    return `${Math.round(distance * 1000)}m`;
+function formatDistance(distanceKm) {
+  const distanceMiles = distanceKm * 0.621371; // Convert km to miles
+  
+  if (distanceKm < 1) {
+    const meters = Math.round(distanceKm * 1000);
+    const feet = Math.round(distanceMiles * 5280);
+    return `${feet}ft (${meters}m)`;
   }
-  return `${Math.round(distance)}km`;
+  
+  const miles = Math.round(distanceMiles);
+  const km = Math.round(distanceKm);
+  return `${miles}mi (${km}km)`;
 }
 
 // Read and process locations
