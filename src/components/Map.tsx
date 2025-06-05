@@ -72,7 +72,14 @@ const Map: React.FC = () => {
             icon={teamLocationIcon}
           >
             <Popup>
-              {location.name}
+              <div>
+                <strong>{location.name}</strong>
+                {location.distance && (
+                  <div style={{ marginTop: '4px', color: '#666' }}>
+                    Distance to Nassau: {location.distance}
+                  </div>
+                )}
+              </div>
             </Popup>
           </Marker>
         )

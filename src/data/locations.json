@@ -5,203 +5,232 @@
       "coordinates": [
         32.7174202,
         -117.162772
-      ]
+      ],
+      "distance": "3941km"
     },
     {
       "name": "Joao Pessoa, Brazil",
       "coordinates": [
         -7.1215981,
         -34.882028
-      ]
+      ],
+      "distance": "5826km"
     },
     {
       "name": "Pereira, Colombia",
       "coordinates": [
         4.7854606,
         -75.788322
-      ]
+      ],
+      "distance": "2258km"
     },
     {
       "name": "New York, NY, USA",
       "coordinates": [
         40.7127281,
         -74.0060152
-      ]
+      ],
+      "distance": "1771km"
     },
     {
       "name": "San Luis Obispo, CA, USA",
       "coordinates": [
         35.3540209,
         -120.375716
-      ]
+      ],
+      "distance": "4252km"
     },
     {
       "name": "Atascadero, CA, USA",
       "coordinates": [
         35.4894169,
         -120.6707255
-      ]
+      ],
+      "distance": "4279km"
     },
     {
       "name": "Porto Alegre, Brazil",
       "coordinates": [
         -30.0324999,
         -51.2303767
-      ]
+      ],
+      "distance": "6729km"
     },
     {
       "name": "Philadelphia, PA, USA",
       "coordinates": [
         39.9527237,
         -75.1635262
-      ]
+      ],
+      "distance": "1672km"
     },
     {
       "name": "New Bern, NC, USA",
       "coordinates": [
         35.1084931,
         -77.0441143
-      ]
+      ],
+      "distance": "1121km"
     },
     {
       "name": "San Marcos, CA, USA",
       "coordinates": [
         33.1352995,
         -117.1743395
-      ]
+      ],
+      "distance": "3944km"
     },
     {
       "name": "Hartford, CT, USA",
       "coordinates": [
         41.764582,
         -72.6908547
-      ]
+      ],
+      "distance": "1910km"
     },
     {
       "name": "Brooklyn, NY, USA",
       "coordinates": [
         40.6526006,
         -73.9497211
-      ]
+      ],
+      "distance": "1766km"
     },
     {
       "name": "Toronto, Canada",
       "coordinates": [
         43.6534817,
         -79.3839347
-      ]
+      ],
+      "distance": "2078km"
     },
     {
       "name": "Staten Island, NY, USA",
       "coordinates": [
         40.5724274,
         -74.1452001
-      ]
+      ],
+      "distance": "1754km"
     },
     {
       "name": "San Jose, Costa Rica",
       "coordinates": [
         9.9325427,
         -84.0795782
-      ]
+      ],
+      "distance": "1822km"
     },
     {
       "name": "Miami, FL, USA",
       "coordinates": [
         25.7741728,
         -80.19362
-      ]
+      ],
+      "distance": "293km"
     },
     {
       "name": "Seattle, WA, USA",
       "coordinates": [
         47.6038321,
         -122.330062
-      ]
+      ],
+      "distance": "4653km"
     },
     {
       "name": "Long Island City, NY, USA",
       "coordinates": [
         40.7455316,
         -73.9484995
-      ]
+      ],
+      "distance": "1776km"
     },
     {
       "name": "Hayward, CA, USA",
       "coordinates": [
         37.6688205,
         -122.080796
-      ]
+      ],
+      "distance": "4423km"
     },
     {
       "name": "Belo Horizonte, Brazil",
       "coordinates": [
         -19.9227318,
         -43.9450948
-      ]
+      ],
+      "distance": "6170km"
     },
     {
       "name": "Phoenix, AZ, USA",
       "coordinates": [
         33.4484367,
         -112.074141
-      ]
+      ],
+      "distance": "3474km"
     },
     {
       "name": "Rio de Janeiro, Brazil",
       "coordinates": [
         -22.9110137,
         -43.2093727
-      ]
+      ],
+      "distance": "6481km"
     },
     {
       "name": "Fortaleza, Brazil",
       "coordinates": [
         -3.7304512,
         -38.5217989
-      ]
+      ],
+      "distance": "5275km"
     },
     {
       "name": "Los Angeles, CA, USA",
       "coordinates": [
         34.0536909,
         -118.242766
-      ]
+      ],
+      "distance": "4048km"
     },
     {
       "name": "Bahía Blanca, Argentina",
       "coordinates": [
         -38.7176522,
         -62.2654871
-      ]
+      ],
+      "distance": "7262km"
     },
     {
       "name": "Sacramento, CA, USA",
       "coordinates": [
         38.5810606,
         -121.493895
-      ]
+      ],
+      "distance": "4383km"
     },
     {
       "name": "San Francisco, CA, USA",
       "coordinates": [
         37.7792588,
         -122.4193286
-      ]
+      ],
+      "distance": "4454km"
     },
     {
       "name": "Atlanta, GA, USA",
       "coordinates": [
         33.7544657,
         -84.3898151
-      ]
+      ],
+      "distance": "1182km"
     },
     {
       "name": "Bogota, Colombia",
       "coordinates": [
         4.6534109,
         -74.0836547
-      ]
+      ],
+      "distance": "2294km"
     }
   ]
 }
