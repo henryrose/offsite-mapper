@@ -6,12 +6,16 @@ interface LocationsPanelProps {
   locations: Location[];
   selectedLocation: Location | null;
   onLocationSelect: (location: Location | null) => void;
+  useAllLocations: boolean;
+  onToggleLocations: () => void;
 }
 
 const LocationsPanel: React.FC<LocationsPanelProps> = ({ 
   locations, 
   selectedLocation,
-  onLocationSelect 
+  onLocationSelect,
+  useAllLocations,
+  onToggleLocations
 }) => {
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
   const [isVisible, setIsVisible] = useState(true);

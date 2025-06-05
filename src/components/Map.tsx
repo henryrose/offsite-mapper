@@ -5,7 +5,6 @@ import 'leaflet/dist/leaflet.css';
 import locationsData from '../data/locations.json';
 import { LocationsData, Location } from '../types/locations';
 import arc from 'arc';
-import LocationsPanel from './LocationsPanel';
 
 // Fix for default marker icons in Leaflet with React
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -75,11 +74,6 @@ const Map: React.FC = () => {
 
   return (
     <div style={{ position: 'relative', height: '100vh', width: '100%' }}>
-      <LocationsPanel 
-        locations={typedLocations.locations} 
-        selectedLocation={selectedLocation}
-        onLocationSelect={setSelectedLocation}
-      />
       <MapContainer
         center={NASSAU_COORDINATES}
         zoom={2}
