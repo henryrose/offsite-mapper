@@ -1,0 +1,1219 @@
+{
+  "locations": [
+    {
+      "name": "Melissa, TX - USA",
+      "coordinates": [
+        33.2859,
+        -96.5719
+      ],
+      "distanceKm": "2071km",
+      "distanceMiles": "1287mi"
+    },
+    {
+      "name": "Philadelphia",
+      "coordinates": [
+        39.9526,
+        -75.1652
+      ],
+      "distanceKm": "1672km",
+      "distanceMiles": "1039mi"
+    },
+    {
+      "name": "Miami, FL United States",
+      "coordinates": [
+        25.7617,
+        -80.1918
+      ],
+      "distanceKm": "292km",
+      "distanceMiles": "182mi"
+    },
+    {
+      "name": "San Diego, CA, USA",
+      "coordinates": [
+        32.7157,
+        -117.1611
+      ],
+      "distanceKm": "3941km",
+      "distanceMiles": "2449mi"
+    },
+    {
+      "name": "Joao Pessoa - Brazil",
+      "coordinates": [
+        -7.115,
+        -34.8631
+      ],
+      "distanceKm": "5827km",
+      "distanceMiles": "3621mi"
+    },
+    {
+      "name": "Pereira, Colombia",
+      "coordinates": [
+        4.8133,
+        -75.6961
+      ],
+      "distanceKm": "2256km",
+      "distanceMiles": "1402mi"
+    },
+    {
+      "name": "Santiago, Chile",
+      "coordinates": [
+        -33.4489,
+        -70.6693
+      ],
+      "distanceKm": "6542km",
+      "distanceMiles": "4065mi"
+    },
+    {
+      "name": "Florianopolis/Brasil",
+      "coordinates": [
+        -27.5969,
+        -48.5495
+      ],
+      "distanceKm": "6618km",
+      "distanceMiles": "4112mi"
+    },
+    {
+      "name": "Santo Domingo, Dominican Republic",
+      "coordinates": [
+        18.4861,
+        -69.9312
+      ],
+      "distanceKm": "1060km",
+      "distanceMiles": "659mi"
+    },
+    {
+      "name": "Rio de Janeiro - Brazil",
+      "coordinates": [
+        -22.9068,
+        -43.1729
+      ],
+      "distanceKm": "6483km",
+      "distanceMiles": "4029mi"
+    },
+    {
+      "name": "Aliso Viejo, USA",
+      "coordinates": [
+        33.5767,
+        -117.7256
+      ],
+      "distanceKm": "3998km",
+      "distanceMiles": "2484mi"
+    },
+    {
+      "name": "New York City, USA",
+      "coordinates": [
+        40.7128,
+        -74.006
+      ],
+      "distanceKm": "1771km",
+      "distanceMiles": "1101mi"
+    },
+    {
+      "name": "São Paulo - Brasil",
+      "coordinates": [
+        -23.5505,
+        -46.6333
+      ],
+      "distanceKm": "6338km",
+      "distanceMiles": "3938mi"
+    },
+    {
+      "name": "Austin, TX, USA",
+      "coordinates": [
+        30.2672,
+        -97.7431
+      ],
+      "distanceKm": "2083km",
+      "distanceMiles": "1295mi"
+    },
+    {
+      "name": "San Jose, CA, USA",
+      "coordinates": [
+        37.3382,
+        -121.8863
+      ],
+      "distanceKm": "4403km",
+      "distanceMiles": "2736mi"
+    },
+    {
+      "name": "Nipomo USA",
+      "coordinates": [
+        35.0428,
+        -120.476
+      ],
+      "distanceKm": "4259km",
+      "distanceMiles": "2646mi"
+    },
+    {
+      "name": "Duluth, GA, USA",
+      "coordinates": [
+        34.0029,
+        -84.1446
+      ],
+      "distanceKm": "1191km",
+      "distanceMiles": "740mi"
+    },
+    {
+      "name": "Atlanta, GA",
+      "coordinates": [
+        33.749,
+        -84.388
+      ],
+      "distanceKm": "1182km",
+      "distanceMiles": "734mi"
+    },
+    {
+      "name": "Campina Grande, Brazil",
+      "coordinates": [
+        -7.2219,
+        -35.8731
+      ],
+      "distanceKm": "5749km",
+      "distanceMiles": "3572mi"
+    },
+    {
+      "name": "Paranavai, Brazil",
+      "coordinates": [
+        -23.0731,
+        -52.4653
+      ],
+      "distanceKm": "5987km",
+      "distanceMiles": "3720mi"
+    },
+    {
+      "name": "San Luis Obispo, CA, US",
+      "coordinates": [
+        35.2828,
+        -120.6596
+      ],
+      "distanceKm": "4277km",
+      "distanceMiles": "2657mi"
+    },
+    {
+      "name": "Portland, OR, USA",
+      "coordinates": [
+        45.5155,
+        -122.6789
+      ],
+      "distanceKm": "4618km",
+      "distanceMiles": "2869mi"
+    },
+    {
+      "name": "San Francisco, CA. USA",
+      "coordinates": [
+        37.7749,
+        -122.4194
+      ],
+      "distanceKm": "4454km",
+      "distanceMiles": "2768mi"
+    },
+    {
+      "name": "Porto Alegre, Brazil",
+      "coordinates": [
+        -30.0346,
+        -51.2177
+      ],
+      "distanceKm": "6729km",
+      "distanceMiles": "4181mi"
+    },
+    {
+      "name": "Belo Horizonte, Brazil",
+      "coordinates": [
+        -19.9167,
+        -43.9345
+      ],
+      "distanceKm": "6170km",
+      "distanceMiles": "3834mi"
+    },
+    {
+      "name": "Los Angeles, USA",
+      "coordinates": [
+        34.0522,
+        -118.2437
+      ],
+      "distanceKm": "4048km",
+      "distanceMiles": "2516mi"
+    },
+    {
+      "name": "Minneapolis, US",
+      "coordinates": [
+        44.9778,
+        -93.265
+      ],
+      "distanceKm": "2636km",
+      "distanceMiles": "1638mi"
+    },
+    {
+      "name": "Brasilia - Brazil",
+      "coordinates": [
+        -15.7975,
+        -47.8919
+      ],
+      "distanceKm": "5553km",
+      "distanceMiles": "3451mi"
+    },
+    {
+      "name": "St Louis, MO, United States",
+      "coordinates": [
+        38.627,
+        -90.1994
+      ],
+      "distanceKm": "1932km",
+      "distanceMiles": "1200mi"
+    },
+    {
+      "name": "Fort Wayne, IN USA",
+      "coordinates": [
+        41.0793,
+        -85.1394
+      ],
+      "distanceKm": "1922km",
+      "distanceMiles": "1195mi"
+    },
+    {
+      "name": "Round Rock, Texas, USA",
+      "coordinates": [
+        30.5083,
+        -97.6789
+      ],
+      "distanceKm": "2083km",
+      "distanceMiles": "1294mi"
+    },
+    {
+      "name": "Brentwood, NY, USA",
+      "coordinates": [
+        40.7812,
+        -73.2462
+      ],
+      "distanceKm": "1793km",
+      "distanceMiles": "1114mi"
+    },
+    {
+      "name": "Guadalajara Mexico",
+      "coordinates": [
+        20.6597,
+        -103.3496
+      ],
+      "distanceKm": "2699km",
+      "distanceMiles": "1677mi"
+    },
+    {
+      "name": "Brooklyn, NY USA",
+      "coordinates": [
+        40.6782,
+        -73.9442
+      ],
+      "distanceKm": "1769km",
+      "distanceMiles": "1099mi"
+    },
+    {
+      "name": "Philadelphia, US",
+      "coordinates": [
+        39.9526,
+        -75.1652
+      ],
+      "distanceKm": "1672km",
+      "distanceMiles": "1039mi"
+    },
+    {
+      "name": "New Bern, NC, USA",
+      "coordinates": [
+        35.1085,
+        -77.0441
+      ],
+      "distanceKm": "1121km",
+      "distanceMiles": "696mi"
+    },
+    {
+      "name": "Morro Bay USA",
+      "coordinates": [
+        35.3658,
+        -120.8499
+      ],
+      "distanceKm": "4295km",
+      "distanceMiles": "2668mi"
+    },
+    {
+      "name": "San Marcos, CA United States",
+      "coordinates": [
+        33.1434,
+        -117.1661
+      ],
+      "distanceKm": "3944km",
+      "distanceMiles": "2450mi"
+    },
+    {
+      "name": "Santo Amaro da Imperatriz, Brazil",
+      "coordinates": [
+        -27.6858,
+        -48.7783
+      ],
+      "distanceKm": "6615km",
+      "distanceMiles": "4110mi"
+    },
+    {
+      "name": "San Jose, Costa Rica",
+      "coordinates": [
+        9.9281,
+        -84.0907
+      ],
+      "distanceKm": "1823km",
+      "distanceMiles": "1132mi"
+    },
+    {
+      "name": "Hartford, Connecticut, USA",
+      "coordinates": [
+        41.7637,
+        -72.6851
+      ],
+      "distanceKm": "1910km",
+      "distanceMiles": "1187mi"
+    },
+    {
+      "name": "Toronto, Canada",
+      "coordinates": [
+        43.6532,
+        -79.3832
+      ],
+      "distanceKm": "2078km",
+      "distanceMiles": "1291mi"
+    },
+    {
+      "name": "Valley Springs USA",
+      "coordinates": [
+        38.1916,
+        -120.8291
+      ],
+      "distanceKm": "4320km",
+      "distanceMiles": "2684mi"
+    },
+    {
+      "name": "Blumenau, Brazil",
+      "coordinates": [
+        -26.9184,
+        -49.0661
+      ],
+      "distanceKm": "6527km",
+      "distanceMiles": "4056mi"
+    },
+    {
+      "name": "Staten Island, NY United States",
+      "coordinates": [
+        40.5795,
+        -74.1502
+      ],
+      "distanceKm": "1755km",
+      "distanceMiles": "1090mi"
+    },
+    {
+      "name": "Houston, United States",
+      "coordinates": [
+        29.7604,
+        -95.3698
+      ],
+      "distanceKm": "1848km",
+      "distanceMiles": "1148mi"
+    },
+    {
+      "name": "Pismo Beach, United States",
+      "coordinates": [
+        35.1428,
+        -120.6413
+      ],
+      "distanceKm": "4274km",
+      "distanceMiles": "2656mi"
+    },
+    {
+      "name": "Avon, Ohio, United States of America",
+      "coordinates": [
+        41.4517,
+        -82.0354
+      ],
+      "distanceKm": "1875km",
+      "distanceMiles": "1165mi"
+    },
+    {
+      "name": "Seattle, USA",
+      "coordinates": [
+        47.6062,
+        -122.3321
+      ],
+      "distanceKm": "4653km",
+      "distanceMiles": "2891mi"
+    },
+    {
+      "name": "Marilia - Brazil",
+      "coordinates": [
+        -22.2139,
+        -49.9456
+      ],
+      "distanceKm": "6031km",
+      "distanceMiles": "3748mi"
+    },
+    {
+      "name": "Guatemala",
+      "coordinates": [
+        14.6349,
+        -90.5069
+      ],
+      "distanceKm": "1792km",
+      "distanceMiles": "1113mi"
+    },
+    {
+      "name": "Maceió - Brazil",
+      "coordinates": [
+        -9.6498,
+        -35.7089
+      ],
+      "distanceKm": "5939km",
+      "distanceMiles": "3690mi"
+    },
+    {
+      "name": "Miami, USA",
+      "coordinates": [
+        25.7617,
+        -80.1918
+      ],
+      "distanceKm": "292km",
+      "distanceMiles": "182mi"
+    },
+    {
+      "name": "Newark, Delaware, USA",
+      "coordinates": [
+        39.6837,
+        -75.7497
+      ],
+      "distanceKm": "1636km",
+      "distanceMiles": "1017mi"
+    },
+    {
+      "name": "New Jersey United States",
+      "coordinates": [
+        40.0583,
+        -74.4057
+      ],
+      "distanceKm": "1694km",
+      "distanceMiles": "1052mi"
+    },
+    {
+      "name": "Araraquara - Brazil",
+      "coordinates": [
+        -21.7944,
+        -48.1756
+      ],
+      "distanceKm": "6088km",
+      "distanceMiles": "3783mi"
+    },
+    {
+      "name": "Florianópolis, Brazil",
+      "coordinates": [
+        -27.5969,
+        -48.5495
+      ],
+      "distanceKm": "6618km",
+      "distanceMiles": "4112mi"
+    },
+    {
+      "name": "Balsa Nova, Brazil",
+      "coordinates": [
+        -25.5833,
+        -49.6333
+      ],
+      "distanceKm": "6370km",
+      "distanceMiles": "3958mi"
+    },
+    {
+      "name": "Guarulhos, Brazil",
+      "coordinates": [
+        -23.4544,
+        -46.5339
+      ],
+      "distanceKm": "6335km",
+      "distanceMiles": "3936mi"
+    },
+    {
+      "name": "Lima, Peru",
+      "coordinates": [
+        -12.0464,
+        -77.0428
+      ],
+      "distanceKm": "4123km",
+      "distanceMiles": "2562mi"
+    },
+    {
+      "name": "Long Island City, NY USA",
+      "coordinates": [
+        40.7447,
+        -73.9485
+      ],
+      "distanceKm": "1776km",
+      "distanceMiles": "1104mi"
+    },
+    {
+      "name": "Portland, ME, USA",
+      "coordinates": [
+        43.6591,
+        -70.2568
+      ],
+      "distanceKm": "2170km",
+      "distanceMiles": "1348mi"
+    },
+    {
+      "name": "Goldens Bridge, NY - USA",
+      "coordinates": [
+        41.2934,
+        -73.6771
+      ],
+      "distanceKm": "1840km",
+      "distanceMiles": "1143mi"
+    },
+    {
+      "name": "Las Vegas, Nevada, USA",
+      "coordinates": [
+        36.1699,
+        -115.1398
+      ],
+      "distanceKm": "3791km",
+      "distanceMiles": "2356mi"
+    },
+    {
+      "name": "Carlsbad USA",
+      "coordinates": [
+        33.1581,
+        -117.3506
+      ],
+      "distanceKm": "3961km",
+      "distanceMiles": "2461mi"
+    },
+    {
+      "name": "Denver USA",
+      "coordinates": [
+        39.7392,
+        -104.9903
+      ],
+      "distanceKm": "3044km",
+      "distanceMiles": "1892mi"
+    },
+    {
+      "name": "Yonkers NY",
+      "coordinates": [
+        40.9312,
+        -73.8987
+      ],
+      "distanceKm": "1797km",
+      "distanceMiles": "1117mi"
+    },
+    {
+      "name": "Bakersfield, CA USA",
+      "coordinates": [
+        35.3733,
+        -119.0187
+      ],
+      "distanceKm": "4129km",
+      "distanceMiles": "2566mi"
+    },
+    {
+      "name": "Mission Viejo, CA USA",
+      "coordinates": [
+        33.6,
+        -117.672
+      ],
+      "distanceKm": "3993km",
+      "distanceMiles": "2481mi"
+    },
+    {
+      "name": "Cincinnati, OH- USA",
+      "coordinates": [
+        39.1031,
+        -84.512
+      ],
+      "distanceKm": "1701km",
+      "distanceMiles": "1057mi"
+    },
+    {
+      "name": "Lilburn, Georgia, United States",
+      "coordinates": [
+        33.8901,
+        -84.1421
+      ],
+      "distanceKm": "1181km",
+      "distanceMiles": "734mi"
+    },
+    {
+      "name": "San Francisco, CA",
+      "coordinates": [
+        37.7749,
+        -122.4194
+      ],
+      "distanceKm": "4454km",
+      "distanceMiles": "2768mi"
+    },
+    {
+      "name": "Bogota Colombia",
+      "coordinates": [
+        4.711,
+        -74.0721
+      ],
+      "distanceKm": "2288km",
+      "distanceMiles": "1421mi"
+    },
+    {
+      "name": "Grover Beach, United States of America",
+      "coordinates": [
+        35.1208,
+        -120.6213
+      ],
+      "distanceKm": "4272km",
+      "distanceMiles": "2655mi"
+    },
+    {
+      "name": "Hayward, California, United States",
+      "coordinates": [
+        37.6688,
+        -122.0808
+      ],
+      "distanceKm": "4423km",
+      "distanceMiles": "2749mi"
+    },
+    {
+      "name": "Tampa, FL, USA",
+      "coordinates": [
+        27.9506,
+        -82.4572
+      ],
+      "distanceKm": "599km",
+      "distanceMiles": "372mi"
+    },
+    {
+      "name": "Columbus, OH (USA)",
+      "coordinates": [
+        39.9612,
+        -82.9988
+      ],
+      "distanceKm": "1740km",
+      "distanceMiles": "1081mi"
+    },
+    {
+      "name": "Newark New Jersey USA",
+      "coordinates": [
+        40.7357,
+        -74.1724
+      ],
+      "distanceKm": "1771km",
+      "distanceMiles": "1101mi"
+    },
+    {
+      "name": "Round Rock, TX - United States",
+      "coordinates": [
+        30.5083,
+        -97.6789
+      ],
+      "distanceKm": "2083km",
+      "distanceMiles": "1294mi"
+    },
+    {
+      "name": "Newark, NJ, USA",
+      "coordinates": [
+        40.7357,
+        -74.1724
+      ],
+      "distanceKm": "1771km",
+      "distanceMiles": "1101mi"
+    },
+    {
+      "name": "Santa Maria United States",
+      "coordinates": [
+        34.953,
+        -120.4357
+      ],
+      "distanceKm": "4254km",
+      "distanceMiles": "2644mi"
+    },
+    {
+      "name": "Nashville, TN - USA",
+      "coordinates": [
+        36.1627,
+        -86.7816
+      ],
+      "distanceKm": "1527km",
+      "distanceMiles": "949mi"
+    },
+    {
+      "name": "Los Angeles, CA - US",
+      "coordinates": [
+        34.0522,
+        -118.2437
+      ],
+      "distanceKm": "4048km",
+      "distanceMiles": "2516mi"
+    },
+    {
+      "name": "Washington DC, US",
+      "coordinates": [
+        38.9072,
+        -77.0369
+      ],
+      "distanceKm": "1543km",
+      "distanceMiles": "959mi"
+    },
+    {
+      "name": "Buenos Aires, Argentina",
+      "coordinates": [
+        -34.6037,
+        -58.3816
+      ],
+      "distanceKm": "6928km",
+      "distanceMiles": "4305mi"
+    },
+    {
+      "name": "Vila Velha, Brazil",
+      "coordinates": [
+        -20.3297,
+        -40.2925
+      ],
+      "distanceKm": "6444km",
+      "distanceMiles": "4004mi"
+    },
+    {
+      "name": "Santo Andre, Brazil",
+      "coordinates": [
+        -23.6639,
+        -46.5383
+      ],
+      "distanceKm": "6354km",
+      "distanceMiles": "3948mi"
+    },
+    {
+      "name": "São João del Rei, Brazil",
+      "coordinates": [
+        -21.1356,
+        -44.2617
+      ],
+      "distanceKm": "6258km",
+      "distanceMiles": "3889mi"
+    },
+    {
+      "name": "Juiz de Fora - Brazil",
+      "coordinates": [
+        -21.7645,
+        -43.3496
+      ],
+      "distanceKm": "6371km",
+      "distanceMiles": "3959mi"
+    },
+    {
+      "name": "Carangola, Brazil",
+      "coordinates": [
+        -20.7333,
+        -42.0333
+      ],
+      "distanceKm": "6364km",
+      "distanceMiles": "3954mi"
+    },
+    {
+      "name": "Peoria USA",
+      "coordinates": [
+        40.6936,
+        -89.589
+      ],
+      "distanceKm": "2076km",
+      "distanceMiles": "1290mi"
+    },
+    {
+      "name": "Brighton, CO USA",
+      "coordinates": [
+        39.9867,
+        -104.8139
+      ],
+      "distanceKm": "3042km",
+      "distanceMiles": "1890mi"
+    },
+    {
+      "name": "Richmond, VA, USA",
+      "coordinates": [
+        37.5407,
+        -77.436
+      ],
+      "distanceKm": "1391km",
+      "distanceMiles": "864mi"
+    },
+    {
+      "name": "Passo Fundo, Brazil",
+      "coordinates": [
+        -28.2615,
+        -52.4089
+      ],
+      "distanceKm": "6501km",
+      "distanceMiles": "4040mi"
+    },
+    {
+      "name": "Curitiba, Brazil",
+      "coordinates": [
+        -25.4284,
+        -49.2733
+      ],
+      "distanceKm": "6373km",
+      "distanceMiles": "3960mi"
+    },
+    {
+      "name": "Indianapolis, US",
+      "coordinates": [
+        39.7684,
+        -86.1581
+      ],
+      "distanceKm": "1831km",
+      "distanceMiles": "1138mi"
+    },
+    {
+      "name": "Fort Lauderdale, USA",
+      "coordinates": [
+        26.1224,
+        -80.1373
+      ],
+      "distanceKm": "300km",
+      "distanceMiles": "187mi"
+    },
+    {
+      "name": "Sarasota, FL, USA",
+      "coordinates": [
+        27.3364,
+        -82.5307
+      ],
+      "distanceKm": "573km",
+      "distanceMiles": "356mi"
+    },
+    {
+      "name": "Miami, Florida, United States of America",
+      "coordinates": [
+        25.7617,
+        -80.1918
+      ],
+      "distanceKm": "292km",
+      "distanceMiles": "182mi"
+    },
+    {
+      "name": "Lansdale, PA",
+      "coordinates": [
+        40.2415,
+        -75.2838
+      ],
+      "distanceKm": "1702km",
+      "distanceMiles": "1058mi"
+    },
+    {
+      "name": "Portland USA",
+      "coordinates": [
+        45.5155,
+        -122.6789
+      ],
+      "distanceKm": "4618km",
+      "distanceMiles": "2869mi"
+    },
+    {
+      "name": "Milan, Italy",
+      "coordinates": [
+        45.4642,
+        9.19
+      ],
+      "distanceKm": "7801km",
+      "distanceMiles": "4847mi"
+    },
+    {
+      "name": "Bloomfield Hills, United States",
+      "coordinates": [
+        42.5839,
+        -83.2455
+      ],
+      "distanceKm": "2024km",
+      "distanceMiles": "1257mi"
+    },
+    {
+      "name": "Fortaleza / Brazil",
+      "coordinates": [
+        -3.7319,
+        -38.5267
+      ],
+      "distanceKm": "5275km",
+      "distanceMiles": "3278mi"
+    },
+    {
+      "name": "Burlington, VT, USA",
+      "coordinates": [
+        44.4759,
+        -73.2121
+      ],
+      "distanceKm": "2195km",
+      "distanceMiles": "1364mi"
+    },
+    {
+      "name": "Phoenix, Arizona, United States",
+      "coordinates": [
+        33.4484,
+        -112.074
+      ],
+      "distanceKm": "3474km",
+      "distanceMiles": "2159mi"
+    },
+    {
+      "name": "Missoula, USA",
+      "coordinates": [
+        46.8787,
+        -113.9966
+      ],
+      "distanceKm": "4035km",
+      "distanceMiles": "2507mi"
+    },
+    {
+      "name": "Columbus, Ohio",
+      "coordinates": [
+        39.9612,
+        -82.9988
+      ],
+      "distanceKm": "1740km",
+      "distanceMiles": "1081mi"
+    },
+    {
+      "name": "Grover Beach, California, United States",
+      "coordinates": [
+        35.1208,
+        -120.6213
+      ],
+      "distanceKm": "4272km",
+      "distanceMiles": "2655mi"
+    },
+    {
+      "name": "Philadelphia, PA, USA",
+      "coordinates": [
+        39.9526,
+        -75.1652
+      ],
+      "distanceKm": "1672km",
+      "distanceMiles": "1039mi"
+    },
+    {
+      "name": "Santiago, Chile",
+      "coordinates": [
+        -33.4489,
+        -70.6693
+      ],
+      "distanceKm": "6542km",
+      "distanceMiles": "4065mi"
+    },
+    {
+      "name": "Cambridge MA, USA",
+      "coordinates": [
+        42.3736,
+        -71.1097
+      ],
+      "distanceKm": "2012km",
+      "distanceMiles": "1250mi"
+    },
+    {
+      "name": "Richland USA",
+      "coordinates": [
+        46.2857,
+        -119.2845
+      ],
+      "distanceKm": "4389km",
+      "distanceMiles": "2727mi"
+    },
+    {
+      "name": "Liverpool, USA",
+      "coordinates": [
+        43.1035,
+        -76.2097
+      ],
+      "distanceKm": "2012km",
+      "distanceMiles": "1250mi"
+    },
+    {
+      "name": "Paso Robles, CA, USA",
+      "coordinates": [
+        35.6266,
+        -120.691
+      ],
+      "distanceKm": "4282km",
+      "distanceMiles": "2661mi"
+    },
+    {
+      "name": "Herkimer NY, US",
+      "coordinates": [
+        43.0256,
+        -74.986
+      ],
+      "distanceKm": "2013km",
+      "distanceMiles": "1251mi"
+    },
+    {
+      "name": "Rio de Janeiro, Brazil",
+      "coordinates": [
+        -22.9068,
+        -43.1729
+      ],
+      "distanceKm": "6483km",
+      "distanceMiles": "4029mi"
+    },
+    {
+      "name": "Fortaleza, Brazil",
+      "coordinates": [
+        -3.7319,
+        -38.5267
+      ],
+      "distanceKm": "5275km",
+      "distanceMiles": "3278mi"
+    },
+    {
+      "name": "Panama City, Panama",
+      "coordinates": [
+        8.9824,
+        -79.5199
+      ],
+      "distanceKm": "1799km",
+      "distanceMiles": "1118mi"
+    },
+    {
+      "name": "Charlottesville, VA, USA",
+      "coordinates": [
+        38.0293,
+        -78.4767
+      ],
+      "distanceKm": "1449km",
+      "distanceMiles": "900mi"
+    },
+    {
+      "name": "Issaquah, USA",
+      "coordinates": [
+        47.5301,
+        -122.0326
+      ],
+      "distanceKm": "4629km",
+      "distanceMiles": "2876mi"
+    },
+    {
+      "name": "Goiania / Brazil",
+      "coordinates": [
+        -16.6869,
+        -49.2648
+      ],
+      "distanceKm": "5551km",
+      "distanceMiles": "3449mi"
+    },
+    {
+      "name": "Spanaway, WA, USA",
+      "coordinates": [
+        47.104,
+        -122.4346
+      ],
+      "distanceKm": "4645km",
+      "distanceMiles": "2886mi"
+    },
+    {
+      "name": "Bahía Blanca, Argentina",
+      "coordinates": [
+        -38.7183,
+        -62.2663
+      ],
+      "distanceKm": "7262km",
+      "distanceMiles": "4512mi"
+    },
+    {
+      "name": "Santa Ana, USA",
+      "coordinates": [
+        33.7455,
+        -117.8677
+      ],
+      "distanceKm": "4012km",
+      "distanceMiles": "2493mi"
+    },
+    {
+      "name": "Gurgaon, India",
+      "coordinates": [
+        28.4595,
+        77.0266
+      ],
+      "distanceKm": "13468km",
+      "distanceMiles": "8369mi"
+    },
+    {
+      "name": "Salinas, California, United States",
+      "coordinates": [
+        36.6777,
+        -121.6555
+      ],
+      "distanceKm": "4377km",
+      "distanceMiles": "2719mi"
+    },
+    {
+      "name": "Sacramento, CA, USA",
+      "coordinates": [
+        38.5816,
+        -121.4944
+      ],
+      "distanceKm": "4383km",
+      "distanceMiles": "2723mi"
+    },
+    {
+      "name": "Charleston, SC",
+      "coordinates": [
+        32.7765,
+        -79.9311
+      ],
+      "distanceKm": "895km",
+      "distanceMiles": "556mi"
+    },
+    {
+      "name": "HEREDIA, COSTA RICA",
+      "coordinates": [
+        10.0024,
+        -84.1165
+      ],
+      "distanceKm": "1816km",
+      "distanceMiles": "1128mi"
+    },
+    {
+      "name": "Provo Utah, USA",
+      "coordinates": [
+        40.2338,
+        -111.6585
+      ],
+      "distanceKm": "3595km",
+      "distanceMiles": "2234mi"
+    },
+    {
+      "name": "Bangalore, INDIA",
+      "coordinates": [
+        12.9716,
+        77.5946
+      ],
+      "distanceKm": "14994km",
+      "distanceMiles": "9317mi"
+    },
+    {
+      "name": "Córdoba Argentina",
+      "coordinates": [
+        -31.4201,
+        -64.1888
+      ],
+      "distanceKm": "6433km",
+      "distanceMiles": "3997mi"
+    },
+    {
+      "name": "Jacksonville, FL USA",
+      "coordinates": [
+        30.3322,
+        -81.6557
+      ],
+      "distanceKm": "723km",
+      "distanceMiles": "449mi"
+    },
+    {
+      "name": "Newburgh, USA",
+      "coordinates": [
+        41.5034,
+        -74.0104
+      ],
+      "distanceKm": "1858km",
+      "distanceMiles": "1154mi"
+    }
+  ]
+}
