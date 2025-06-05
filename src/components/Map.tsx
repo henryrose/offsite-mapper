@@ -1,9 +1,10 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, Polyline } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import locationsData from '../data/locations.json';
 import { LocationsData } from '../types/locations';
+import arc from 'arc';
 
 // Fix for default marker icons in Leaflet with React
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -33,6 +34,17 @@ const nassauIcon = new L.Icon({
 
 const NASSAU_COORDINATES: [number, number] = [25.0343, -77.3963];
 
+// Create curved line between two points
+const createCurvedLine = (start: [number, number], end: [number, number]) => {
+  const generator = new arc.GreatCircle(
+    { x: start[1], y: start[0] },
+    { x: end[1], y: end[0] }
+  );
+  
+  const line = generator.Arc(100, { offset: 10 });
+  return line.geometries[0].coords.map((coord: [number, number]) => [coord[1], coord[0]] as [number, number]);
+};
+
 const Map: React.FC = () => {
   const typedLocations = locationsData as LocationsData;
   const teamLocationIcon = createCustomIcon('#8686FC');
@@ -48,10 +60,10 @@ const Map: React.FC = () => {
   return (
     <MapContainer
       center={NASSAU_COORDINATES}
-      zoom={2} // Set a low initial zoom level
+      zoom={2}
       style={{ height: '100vh', width: '100%' }}
       bounds={bounds}
-      boundsOptions={{ padding: [50, 50] }} // Add padding in pixels
+      boundsOptions={{ padding: [50, 50] }}
     >
       <TileLayer
         attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
@@ -63,25 +75,35 @@ const Map: React.FC = () => {
           Nassau, Bahamas
         </Popup>
       </Marker>
-      {/* Add markers for all team locations */}
+      {/* Add markers and curved lines for all team locations */}
       {typedLocations.locations.map((location, index) => (
         location.coordinates && (
-          <Marker 
-            key={index} 
-            position={location.coordinates}
-            icon={teamLocationIcon}
-          >
-            <Popup>
-              <div>
-                <strong>{location.name}</strong>
-                {location.distanceKm && location.distanceMiles && (
-                  <div style={{ marginTop: '4px', color: '#666' }}>
-                    Distance to Nassau: {location.distanceMiles}mi ({location.distanceKm}km)
-                  </div>
-                )}
-              </div>
-            </Popup>
-          </Marker>
+          <React.Fragment key={index}>
+            <Marker 
+              position={location.coordinates}
+              icon={teamLocationIcon}
+            >
+              <Popup>
+                <div>
+                  <strong>{location.name}</strong>
+                  {location.distanceKm && location.distanceMiles && (
+                    <div style={{ marginTop: '4px', color: '#666' }}>
+                      Distance to Nassau: {location.distanceMiles}mi ({location.distanceKm}km)
+                    </div>
+                  )}
+                </div>
+              </Popup>
+            </Marker>
+            <Polyline
+              positions={createCurvedLine(location.coordinates, NASSAU_COORDINATES)}
+              pathOptions={{
+                color: '#50F1FA',
+                weight: 2,
+                opacity: 0.8,
+                lineCap: 'round'
+              }}
+            />
+          </React.Fragment>
         )
       ))}
     </MapContainer>
