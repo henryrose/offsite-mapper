@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import consumerLocationsData from '../data/locations.json';
-import allLocationsData from '../data/all-locations.json';
-import { LocationsData, Location } from '../types/consumer-locations';
+import locationsData from '../data/locations.json';
+import { LocationsData, Location } from '../types/locations';
 import arc from 'arc';
 import LocationsPanel from './LocationsPanel';
 
@@ -62,14 +61,10 @@ const MapBounds: React.FC<{ bounds: L.LatLngBounds }> = ({ bounds }) => {
 };
 
 const Map: React.FC = () => {
-  const [useAllLocations, setUseAllLocations] = useState(false);
-  const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
-
-  // Choose which locations data to use
-  const locationsData = useAllLocations ? allLocationsData : consumerLocationsData;
   const typedLocations = locationsData as LocationsData;
   const teamLocationIcon = createCustomIcon('#8686FC');
-
+  const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
+  
   // Calculate bounds to include all points
   const bounds = typedLocations.locations.reduce((bounds, location) => {
     if (location.coordinates) {
@@ -84,8 +79,6 @@ const Map: React.FC = () => {
         locations={typedLocations.locations} 
         selectedLocation={selectedLocation}
         onLocationSelect={setSelectedLocation}
-        useAllLocations={useAllLocations}
-        onToggleLocations={() => setUseAllLocations((prev) => !prev)}
       />
       <MapContainer
         center={NASSAU_COORDINATES}
