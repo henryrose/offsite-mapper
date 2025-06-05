@@ -51,13 +51,25 @@ const LocationsPanel: React.FC<LocationsPanelProps> = ({
       </button>
       <div className={`locations-panel ${isVisible ? 'visible' : 'hidden'}`}>
         <div className="locations-header">
-          <h2>Where we're coming from</h2>
+          <div className="view-selector">
+            <label htmlFor="view-select">View:</label>
+            <select
+              id="view-select"
+              value={useAllLocations ? 'all' : 'consumer'}
+              onChange={onToggleLocations}
+              className="view-select"
+            >
+              <option value="consumer">Consumer Pillar</option>
+              <option value="all">All Pillars</option>
+            </select>
+          </div>
+          <h2>Where we're traveling from</h2>
           <button 
             onClick={toggleSort}
             className="sort-button"
             title={sortOrder === 'asc' ? 'Sort by longest distance' : 'Sort by shortest distance'}
           >
-            {sortOrder === 'asc' ? '↑' : '↓'}
+            {sortOrder === 'asc' ? 'sort by distance ↑' : 'sort by distance ↓'}
           </button>
         </div>
         <div className="locations-list">

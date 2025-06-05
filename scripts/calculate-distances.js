@@ -40,39 +40,57 @@ function formatDistance(distanceKm) {
   return `${miles}mi (${km}km)`;
 }
 
+// Get input and output filenames from command line arguments
+const args = process.argv.slice(2);
+if (args.length < 1) {
+  console.error('Please provide an input filename');
+  console.error('Usage: node calculate-distances.js <input-file> [output-file]');
+  process.exit(1);
+}
+
+const inputFile = args[0];
+const outputFile = args[1] || inputFile; // If no output file specified, overwrite input file
+
 // Read and process locations
-const locationsFile = path.join(__dirname, '../src/data/locations.json');
-const locations = JSON.parse(fs.readFileSync(locationsFile, 'utf8'));
+const inputPath = path.join(__dirname, '..', inputFile);
+const outputPath = path.join(__dirname, '..', outputFile);
 
-// Add distances to each location and remove old distance attribute
-const updatedLocations = locations.locations.map(location => {
-  if (location.coordinates) {
-    const [lat, lon] = location.coordinates;
-    const distanceKm = calculateDistance(
-      lat,
-      lon,
-      NASSAU_COORDINATES[0],
-      NASSAU_COORDINATES[1]
-    );
-    const distanceMiles = distanceKm * 0.621371;
-    
-    // Create new location object without the old distance attribute
-    const { distance, ...locationWithoutDistance } = location;
-    
-    return {
-      ...locationWithoutDistance,
-      distanceKm: Math.round(distanceKm),
-      distanceMiles: Math.round(distanceMiles)
-    };
-  }
-  return location;
-});
+try {
+  const locations = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
 
-// Write updated locations back to file
-fs.writeFileSync(
-  locationsFile,
-  JSON.stringify({ locations: updatedLocations }, null, 2),
-  'utf8'
-);
+  // Add distances to each location and remove old distance attribute
+  const updatedLocations = locations.locations.map(location => {
+    if (location.coordinates) {
+      const [lat, lon] = location.coordinates;
+      const distanceKm = calculateDistance(
+        lat,
+        lon,
+        NASSAU_COORDINATES[0],
+        NASSAU_COORDINATES[1]
+      );
+      const distanceMiles = distanceKm * 0.621371;
+      
+      // Create new location object without the old distance attribute
+      const { distance, ...locationWithoutDistance } = location;
+      
+      return {
+        ...locationWithoutDistance,
+        distanceKm: Math.round(distanceKm),
+        distanceMiles: Math.round(distanceMiles)
+      };
+    }
+    return location;
+  });
 
-console.log('Distances calculated and added to locations.json'); 
+  // Write updated locations back to file
+  fs.writeFileSync(
+    outputPath,
+    JSON.stringify({ locations: updatedLocations }, null, 2),
+    'utf8'
+  );
+
+  console.log(`Distances calculated and added to ${outputFile}`);
+} catch (error) {
+  console.error('Error processing file:', error.message);
+  process.exit(1);
+} 

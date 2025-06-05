@@ -23,9 +23,12 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
+/* Map container takes up remaining space */
 .map-container {
-  flex-grow: 1;
+  flex: 1;
   height: 100%;
+  position: relative;
 }
